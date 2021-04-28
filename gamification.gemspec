@@ -17,15 +17,15 @@ Gem::Specification.new do |s|
   s.files      = Dir["{app,config,db,lib}/**/*", "spec/factories/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["spec/**/*"]
 
-  s.add_dependency "rails", "~> 4.0"
+  s.add_dependency "rails", "~> 5.2.4"
   s.add_dependency "carrierwave", "~> 0.10"
   s.add_dependency "mini_magick", "~> 3.7"
 
   s.add_development_dependency "sqlite3"
   s.add_development_dependency "guard-rspec"
-  s.add_development_dependency "rspec-rails", "~> 2.14"
+  s.add_development_dependency "rspec-rails", "~> 4.0"
   s.add_development_dependency "capybara"
-  s.add_development_dependency "factory_girl_rails"
+  s.add_development_dependency "factory_bot_rails"
   s.add_development_dependency "timecop"
   s.add_development_dependency "faker"
   s.add_development_dependency "thor"
